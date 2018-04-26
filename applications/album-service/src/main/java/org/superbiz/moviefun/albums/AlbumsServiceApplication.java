@@ -1,0 +1,15 @@
+package org.superbiz.moviefun.albums;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = {
+        "org.superbiz.moviefun"
+})
+public class AlbumsServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(AlbumsServiceApplication.class, args);
+    }
+
+}
